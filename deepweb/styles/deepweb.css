@@ -1,0 +1,224 @@
+::selection {
+    color: none;
+    background: none;
+}
+
+.market:hover {
+    background: linear-gradient(#d53369 0%, #daae51 100%);
+}
+
+.tips:hover {
+    background: linear-gradient(#d53369 0%, #daae51 100%);
+}
+
+.chat:hover {
+    background: linear-gradient(#d53369 0%, #daae51 100%);
+}
+
+.exit:hover {
+    opacity: 100%;
+}
+
+p {
+    margin: 10px 10px 0 10px;
+    color: whitesmoke;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-image: url("https://cdn.discordapp.com/attachments/742685031612416102/757975955536085092/unknown.png");
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+
+.laptop {
+    top: 5%;
+    left: 5%;
+    border-radius: 50px;
+    position: absolute;
+    background-color: black;
+    width: 90%;
+    height: 90%;
+}
+
+.camera {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 10%;
+    background-image: url("https://cdn.discordapp.com/attachments/724650932834402345/758371224551424101/pleistertje.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.scherm {
+    position: absolute;
+    padding: 0px;
+    border-radius: 5px;
+    margin: 0px;
+    margin-left: 2%;
+    width: 96%;
+    height: 80%;
+    background: linear-gradient(#444444 0%, #080808 100%);
+    background-position: center;
+}
+
+.loading { 
+    display:block;
+    width:100%;
+    height:400px; 
+    background-image: url(/images/loading.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 3%;
+}
+/*.button {
+    position: sticky;
+    background-image: url(/images/homebutton.png);
+    height: 68.5%;
+    background-size: 2%;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    padding: 0px;
+
+} */
+.div-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.div-wrapper img {
+    position: absolute;
+    left: 50%;
+    bottom: 13%;
+}
+
+.nav {
+    box-shadow: black 0px 2px 5px;
+    position: relative;
+    background-color: #222222;
+    height: 6%;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.exit {
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+    top: 8%;
+    right: 0%;
+    height: 35px;
+    width: 35px;
+}
+
+.profilepic {
+    position: absolute;
+    background-position: center;
+    background-image: url(/images/profile.png);
+    top: 8%;
+    right: 3%;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: black 0px 0 5px;
+}
+
+.verbinding {
+    border-style: solid;
+    border-color: limegreen;
+    position: absolute;
+    background-color:lime;
+    top: 35%;
+    left: 1%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.banners {
+    display: flex;
+    flex-direction: row;
+    height: 94%;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.market {
+    width: 100%;
+    height: 100%;
+    box-shadow: black 0 0 7px;
+    border-radius: 25px;
+    background: #222222;
+    transition: background-color 0.5s ease;
+}
+
+.tips {
+    box-shadow: black 0 0 7px;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    background: #222222;
+    transition: background-color 0.5s ease;
+}
+
+.chat {
+    box-shadow: black 0 0 7px;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    background: #222222;
+    transition: background-color 0.5s ease;
+}
+
+.marketfoto {
+    background-position: center;
+    background-size: cover;
+    background-image: url(/images/markt.png);
+    border-radius: 5px 5px  5px 5px;
+    width: 100%;
+    height: 30%;
+    background-color: white;
+}
+
+.tipsfoto {
+    background-position: center;
+    background-size: cover;
+    background-image: url(/images/tips.png);
+    border-radius: 5px 5px  5px 5px;
+    width: 100%;
+    height: 30%;
+    background-color: white;
+}
+
+.chatfoto {
+    background-position: center;
+    background-size: cover;
+    background-image: url(/images/chat.png);
+    border-radius: 5px 5px  5px 5px;
+    width: 100%;
+    height: 30%;
+    background-color: white;
+}
+
+.banners > a {
+    text-decoration: none;
+    width: 20%;
+    height: 70%;
+    margin: 0;
+    padding: 0;
+}

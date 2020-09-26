@@ -1,0 +1,90 @@
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-image: url("https://cdn.discordapp.com/attachments/742685031612416102/757975955536085092/unknown.png");
+    margin: 0;
+    padding: 0;
+}
+
+.laptop {
+    top: 5%;
+    left: 5%;
+    border-radius: 50px;
+    position: absolute;
+    background-color: black;
+    width: 90%;
+    height: 90%;
+}
+
+.camera {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 10%;
+    background-image: url("https://cdn.discordapp.com/attachments/724650932834402345/758371224551424101/pleistertje.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.scherm {
+    position: absolute;
+    padding: 0px;
+    border-radius: 5px;
+    margin: 0px;
+    margin-left: 2%;
+    width: 96%;
+    height: 80%;
+    background-color: #b5feff;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.schermlogo {
+    background-position: 50% 10%;
+    width: 100%;
+    height: 422px;
+    background-image: url(/images/logo.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+}
+.login {
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.je {
+    width: 955px;
+    height: 100%;
+}
+.loading { 
+    display:block;
+    width:100%;
+    height:400px; 
+    background-image: url(/images/loading.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 3%;
+}
+.taakbalk {
+    border-radius: 0 0 5px 5px;
+    bottom: 0px;
+    width: 100%;
+    background-color: gray;
+    height: 6%;
+    color: white;
+    opacity: 80%;
+}
+.div-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.div-wrapper img {
+    position: absolute;
+    left: 50%;
+    bottom: 13%;
+}

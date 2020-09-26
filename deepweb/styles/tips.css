@@ -1,0 +1,102 @@
+::selection {
+    color: none;
+    background: none;
+}
+
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-image: url("https://cdn.discordapp.com/attachments/742685031612416102/757975955536085092/unknown.png");
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+
+.laptop {
+    top: 5%;
+    left: 5%;
+    border-radius: 50px;
+    position: absolute;
+    background-color: black;
+    width: 90%;
+    height: 90%;
+}
+
+.camera {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 10%;
+    background-image: url("https://cdn.discordapp.com/attachments/724650932834402345/758371224551424101/pleistertje.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.scherm {
+    position: absolute;
+    padding: 0px;
+    border-radius: 5px;
+    margin: 0px;
+    margin-left: 2%;
+    width: 96%;
+    height: 80%;
+    background: linear-gradient(#444444 0%, #080808 100%);
+    background-position: center;
+}.div-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.div-wrapper img {
+    position: absolute;
+    left: 50%;
+    bottom: 13%;
+}
+
+.nav {
+    box-shadow: black 0px 2px 5px;
+    position: relative;
+    background-color: #222222;
+    height: 6%;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.exit {
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+    top: 8%;
+    right: 0%;
+    height: 35px;
+    width: 35px;
+}
+
+.profilepic {
+    position: absolute;
+    background-position: center;
+    background-image: url(/images/profile.png);
+    top: 8%;
+    right: 3%;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: black 0px 0 5px;
+}
+
+.verbinding {
+    border-style: solid;
+    border-color: limegreen;
+    position: absolute;
+    background-color:lime;
+    top: 35%;
+    left: 1%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
